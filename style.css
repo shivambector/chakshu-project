@@ -1,0 +1,44 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 7.5rem;
+}
+
+nav {
+	background-color:#23c7b8;
+}
+
+form input.form-control {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	width: auto;
+}
+
+form button.btn {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+h5.card-title {
+	font-weight: 700;
+}
+
+.fav-icon .far {
+	color: #63c8b8;
+}
+
+.fav-icon > .far + .fas,
+.fav-icon:hover > .far {
+  display: none;
+  cursor: pointer;
+  color: #63c8b8;
+}
+.fav-icon:hover > .far + .fas {
+  display: inherit;
+}
+
+@media only screen and (min-width: 576px) {
+	form input.form-control {
+		min-width: 400px;
+
+	}
+}
